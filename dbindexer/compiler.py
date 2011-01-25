@@ -1,4 +1,5 @@
 from resolver import resolver
+from django.utils.importlib import import_module
 
 def __repr__(self):
     return '<%s, %s, %s, %s>' % (self.alias, self.col, self.field.name,
